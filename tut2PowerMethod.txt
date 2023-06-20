@@ -1,0 +1,8 @@
+// Gather all values of tmp into x for all processes
+MPI_Allgather(&tmp, 1, MPI_DOUBLE, x, 1, MPI_DOUBLE, MPI_COMM_WORLD);
+
+// Find max of all the max values from all processes
+MPI_Allreduce(&max, &max, 1, MPI_DOUBLE, MPI_MAX, MPI_COMM_WORLD);
+
+// Summing all lambda variables from all processes
+MPI_Allreduce(&lambda, &lambda, 1, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);

@@ -1,0 +1,8 @@
+git clone https://github.com/ProfessorBienz/cmake-and-github-tutorial-dfranco24.git
+
+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
+
+git fetch https://github.com/google/googletest.git
+
+git checkout main
+git log origin/main

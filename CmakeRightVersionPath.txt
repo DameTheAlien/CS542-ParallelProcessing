@@ -1,0 +1,1 @@
+export PATH=/nfs/student/student/d/dfranco/spack/opt/spack/linux-ubuntu18.04-skylake/gcc-7.5.0/cmake-3.23.3-awl2k7evnn2agsjga777myoxpbdm7ss5/bin/:$PATH
